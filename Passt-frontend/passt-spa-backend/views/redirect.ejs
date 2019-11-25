@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Passt</title>
+  <script>
+    var access_token = "<%=access_token%>";
+    var refresh_token = "<%=refresh_token%>";
+    window.localStorage.removeItem('auth_error');
+    window.localStorage.setItem('access_token', access_token);
+    window.localStorage.setItem('refresh_token', refresh_token);
+    window.location.href = "<%=frontendUri%>"
+  </script>
+</head>
+
+</html>

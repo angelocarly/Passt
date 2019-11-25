@@ -1,0 +1,10 @@
+/* Credentials */
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('a544713d10c84c078273401de818340a', '8a919ac169e3bca10169e3bccb450000', 'facebook', 'angelo.carly@hotmail.com', 'fakepass');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('42a69372fdd14d4cbf7f085209c5554b', '8a919ac169e3bca10169e3bccb450000', 'gmail', 'angelo.carly@gmail.com', 'password1');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('8b5c061ff0444a68934916ae01f87db0', '8a919ac169e3bca10169e3bccb450000', 'steam', 'angelo.carly@hotmail.com', 'password1');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('5ddfd3301d494a3aa31f3a9cf5ffa5a1', '8a919ac169e3bca10169e3bece290001', 'facebook', 'sander.beazar@hotmail.com', 'fakepass');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('2d1f7b59f71c42828223588c8554388d', '8a919ac169e3bca10169e3bece290001', 'gmail', 'sander.beazar@gmail.com', 'fakepass');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('58c67cf687f249a39cf3ae5adb73d427', '8a919ac169e3bca10169e3bf35830002', 'outlook', 'anthony.van.noppen@hotmail.com', 'fakepass');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('91f18e427a644b84af4d487f09e77899', '8a919ac169e3bca10169e3c016310003', 'facebook', 'nathan.westerlinck@gmail.com', 'fakepass');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('cb406190f41340d4acc194b8db1ec588', '8a919ac169e3bca10169e3c016310003', 'youtube', 'nathan.westerlinck@gmail.com', 'fakepass');
+INSERT INTO credential(credential_id, user_id,name,username,password) VALUES('5c5b5eead25c4e1ba3f9f5413ced4392', '8a919ac169e3bca10169e72ac7b40004', 'gmail', 'jarne.kerkaert@gmail.com', 'fakepass');

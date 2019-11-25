@@ -1,0 +1,13 @@
+<div *ngIf="isLoggedIn" class="container">
+  <br>
+  <app-passwordoverview></app-passwordoverview>
+  <b>access token:</b>
+  <p class="content" style="word-wrap:break-word">{{accessToken}}</p>
+  <b>refresh token:</b>
+  <p class="content" style="word-wrap:break-word">{{refreshToken}}</p>
+  <button class="btn btn-secondary" (click)="refresh()">Refresh</button>
+</div>
+<div *ngIf="!isLoggedIn" class="container">
+  <br>
+  <p>Please log in.</p>
+</div>

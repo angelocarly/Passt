@@ -1,0 +1,23 @@
+# Jws settings
+jws:
+  password: dmSBinswAE3G6t$
+
+# Client settings
+passt:
+  client:
+    address: localhost
+    clientId: token-client
+    clientSecret: secret
+    # This should stay localhost because otherwise the client can't get any tokens
+    accessTokenUri: https://localhost:${server.port}/oauth/token
+    # This should be the host that the user connects to. https://localhost:8443/oauth/authorize if running locally
+    userAuthorizationUri: https://${passt.client.address}:${server.port}/oauth/authorize
+    tokenName: oauth_token
+    authenticationScheme: header
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: /client/api/me
+    
+logging:
+  level:
+    org.springframework.security: DEBUG

@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Passt</title>
+    <script>
+      var auth_error = "<%=auth_error%>"
+      window.localStorage.removeItem('access_token');
+      window.localStorage.removeItem('refresh_token');
+      window.localStorage.setItem('auth_error', auth_error);
+      window.location.href = "<%=frontendUri%>"
+    </script>
+  </head>
+</html>
